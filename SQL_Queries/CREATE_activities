@@ -1,0 +1,30 @@
+/*
+CREATE TABLE activities (
+  id SERIAL PRIMARY KEY,
+  activity_type VARCHAR(255) NOT NULL,
+  workout_type VARCHAR(255) NOT NULL,
+  sub_type VARCHAR(255) NOT NULL,
+  datetime TIMESTAMP NOT NULL,
+  distance FLOAT NOT NULL,
+  duration INTEGER NOT NULL,
+  comments TEXT,
+  private_comments TEXT,
+  shoes VARCHAR(255),
+  max_hr INTEGER,
+  avg_hr INTEGER,
+  weight FLOAT,
+  temperature FLOAT,
+  respirations INTEGER,
+  weather_condition VARCHAR(255),
+  weather_temperature FLOAT,
+  weather_humidity FLOAT,
+  weather_wind FLOAT,
+  weather_comments TEXT,
+  effort_rating INTEGER,
+  injury TEXT,
+  attitude TEXT,
+  course VARCHAR(255),
+  terrain VARCHAR(255),
+  difficulty INTEGER
+);
+*/

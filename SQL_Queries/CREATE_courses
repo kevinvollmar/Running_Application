@@ -1,0 +1,10 @@
+/*
+CREATE TABLE Courses (
+  Course_ID SERIAL PRIMARY KEY,
+  Course_Name VARCHAR(255) NOT NULL,
+  Course_Location VARCHAR(255) NOT NULL,
+  Course_Distance FLOAT NOT NULL,
+  Course_Terrain VARCHAR(255),
+  Course_Difficulty INTEGER
+);
+*/
