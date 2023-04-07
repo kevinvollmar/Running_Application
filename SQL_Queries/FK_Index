@@ -1,0 +1,7 @@
+/*
+## this is the SQL query used to update the ACTIVITIES table with COURSE_ID FK from COURSES
+ALTER TABLE activities
+ADD CONSTRAINT fk_activity_course
+FOREIGN KEY (course_id)
+REFERENCES Courses (course_id);
+*/
